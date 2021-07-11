@@ -6,10 +6,10 @@ print("Welcome, " + name)
 age = input("\nHow old are you?\n")
 
 if int(age) >= 18:
-    print("You are elegibile!")
+    print("You are eligible!")
 else:
     remainingYears= 18 - int(age)
-    print("Don't worry, you will be elegibile in less than " + str(remainingYears) + " years.")
+    print("Don't worry, you will be eligible in less than " + str(remainingYears) + " years.")
 
 
 
@@ -24,7 +24,7 @@ Welcome, Muskan
 
 How old are you?
 11
-Don't worry, you will be elegibile in less than 7 years.
+Don't worry, you will be eligible in less than 7 years.
 
 
 
@@ -37,6 +37,6 @@ Welcome, Kunal
 
 How old are you?
 20
-You are elegibile!
+You are eligible!
 
 """
