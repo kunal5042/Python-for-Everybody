@@ -17,3 +17,36 @@ for letter in stringVar:
 
 #Demo of len function in python
 print("\nLenght of the string = " + str(len(stringVar)))
+
+"""
+Output:
+Using while loop:
+Index: 0 	= K
+Index: 1 	= U
+Index: 2 	= N
+Index: 3 	= A
+Index: 4 	= L
+Index: 5 	=  
+Index: 6 	= W
+Index: 7 	= A
+Index: 8 	= D
+Index: 9 	= H
+Index: 10 	= W
+Index: 11 	= A
+
+Using for loop:
+Index: 0 	= K
+Index: 1 	= U
+Index: 2 	= N
+Index: 3 	= A
+Index: 4 	= L
+Index: 5 	=  
+Index: 6 	= W
+Index: 7 	= A
+Index: 8 	= D
+Index: 9 	= H
+Index: 10 	= W
+Index: 11 	= A
+
+Lenght of the string = 12
+"""
