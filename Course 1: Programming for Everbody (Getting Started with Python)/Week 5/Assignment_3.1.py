@@ -21,8 +21,9 @@ except:
 
 if H > 40:
     extraHours = H - 40
-
-print( 40*HR + (extraHours*1.5*HR))
+    print( 40*HR + (extraHours*1.5*HR))
+else:
+    print(HR*H)
 
 """
 Input:
