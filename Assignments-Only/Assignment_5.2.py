@@ -40,3 +40,8 @@ Average = Sum / Count
 
 print("Maximum is", Maximum)
 print("Minimum is", Minimum)
+
+# Answer by:
+# kunal5042
+# Email    : kunalwadhwa.cs@gmail.com
+# Alternate: kunalwadhwa900@gmail.com

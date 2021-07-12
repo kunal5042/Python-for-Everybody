@@ -33,3 +33,7 @@ Rate  = 10.05
 Desired Output:
 498.75
 """
+# Answer by:
+# kunal5042
+# Email    : kunalwadhwa.cs@gmail.com
+# Alternate: kunalwadhwa900@gmail.com

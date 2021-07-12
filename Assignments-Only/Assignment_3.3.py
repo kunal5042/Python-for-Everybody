@@ -42,3 +42,7 @@ Input: 0.85
 Desired Output:
 B
 """
+# Answer by:
+# kunal5042
+# Email    : kunalwadhwa.cs@gmail.com
+# Alternate: kunalwadhwa900@gmail.com

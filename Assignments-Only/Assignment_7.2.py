@@ -30,3 +30,8 @@ for line in file:
         print("Error while parsing the string.")
 
 print("Average spam confidence: " + str(totalConfidence / lineCount))
+
+# Answer by:
+# kunal5042
+# Email    : kunalwadhwa.cs@gmail.com
+# Alternate: kunalwadhwa900@gmail.com

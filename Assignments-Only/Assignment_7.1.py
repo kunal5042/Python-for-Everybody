@@ -12,3 +12,8 @@ except:
     quit()
 
 print(((file.read()).upper()).rstrip())
+
+# Answer by:
+# kunal5042
+# Email    : kunalwadhwa.cs@gmail.com
+# Alternate: kunalwadhwa900@gmail.com

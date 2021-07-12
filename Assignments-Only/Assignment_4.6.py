@@ -30,3 +30,8 @@ hourlyrate = input("Enter the hourly rate.\n")
 
 
 print("Pay " + str(checkInput_And_ComputePay(hours, hourlyrate)))
+
+# Answer by:
+# kunal5042
+# Email    : kunalwadhwa.cs@gmail.com
+# Alternate: kunalwadhwa900@gmail.com
