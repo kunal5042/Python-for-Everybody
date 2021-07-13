@@ -5,7 +5,10 @@ hrs = input("Enter Hours:")
 
 rate = input("Enter rate: ")
 
-pay = float(hrs) * float(rate)
+try:
+    pay = float(hrs) * float(rate)
+except:
+    print("Eror while parsing, invalid data:")
 
 print("Pay:",pay)
 

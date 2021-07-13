@@ -3,7 +3,13 @@
 You can download the sample data at http://www.py4e.com/code3/romeo.txt
 """
 #Opened file
-file = open("romeo.txt")
+try:
+    file = open("mbox-short.txt")    
+except:
+    print()
+    print("Please follow this link -> http://www.py4e.com/code3/romeo.txt\nDownload the data from there and save it as romeo.txt in the same directory.\nAs this program operates on that data, it won't work unless that data has been fed to it.")
+    file = None
+    quit()
 
 builtList = list()
 

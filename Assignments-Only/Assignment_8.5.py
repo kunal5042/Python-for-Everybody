@@ -8,7 +8,14 @@ You can download the sample data at http://www.py4e.com/code3/mbox-short.txt
 """
 
 #Open the file mbox-short.txt 
-file = open("mbox-short.txt")
+try:
+    file = open("mbox-short.txt")    
+except:
+    print()
+    print("Please follow this link -> https://www.py4e.com/code3/mbox-short.txt\nAnd download the data from there and save it as mbox-short.txt in the same directory as this program.\nAs this program operates on that data, it won't work unless that data has been fed to it.")
+    file = None
+    quit()
+
 
 Count = 0
 #Reading the file line by line

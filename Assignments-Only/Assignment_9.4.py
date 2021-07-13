@@ -12,9 +12,9 @@ def getFileHandle():
         return file
     except:
         print()
-        print("Please follow this link -> https://www.py4e.com/code3/mbox-short.txt\nAnd download the data from there and save it as Sample-Data.txt in the same directory as this program.\nAs this program operates on that data, it won't work unless that data has been fed to it.")
+        print("Please follow this link -> https://www.py4e.com/code3/mbox-short.txt\nAnd download the data from there and save it as mbox-short.txt in the same directory.\nAs this program operates on that data, it won't work unless that data has been fed to it.")
         file = None
-        return file
+        quit()
 
 def createEmailDictionary():
     
