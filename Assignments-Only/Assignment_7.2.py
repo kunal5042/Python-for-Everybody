@@ -11,9 +11,13 @@ Average spam confidence: 0.7507185185185187
 fileName = input("Please enter a file's name:\n")
 
 try:
-    file = open(fileName)
+    file = open(fileName)    
 except:
+    print()
     print("Coudn't open the file: " + fileName)
+    print()
+    print("Please follow this link -> https://www.py4e.com/code3/mbox-short.txt\nAnd download the data from there and save it as mbox-short.txt in the same directory as this program.\nAs this program operates on that data, it won't work unless that data has been fed to it.")
+    file = None
     quit()
 
 lineCount = 0

@@ -13,12 +13,12 @@ def checkInput_And_ComputePay(hours, hourlyrate):
     try:
         hours = float(hours)
         hourlyrate = float(hourlyrate)
-        x = 1
+        flag = True
     except:
         print("Invalid input")
-        x = -1
+        flag = False
     
-    if x != -1:
+    if flag:
         pay = computepay(hours, hourlyrate)
     else:
         return "Can't compute pay!"

@@ -8,16 +8,16 @@ try:
     H = float(hours)
 except:
     print("Not a valid number.")
-    print("Default hours value is 0 and will be used.")
-    H = 0
+    print("Default hours value is 1 and will be used.")
+    H = 1
 
 hourlyRate = input("Enter the hourly rate:\n")
 try:
     HR = float(hourlyRate)
 except:
     print("Not a valid number.")
-    print("Default hourly rate value is 0 and will be used.")
-    HR = 0
+    print("Default hourly rate value is 1 and will be used.")
+    HR = 1
 
 if H > 40:
     extraHours = H - 40
