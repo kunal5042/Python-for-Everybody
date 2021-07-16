@@ -1,8 +1,7 @@
 #Import regex library
 import re
 
-def getFileHandle():
-    fileName = input("Please enter the name of the file to operate on\n")
+def getFileHandle(fileName):
     try:
         file = open(fileName, "r")
         return file
@@ -23,7 +22,9 @@ def extractNumSum(file):
 
     return sum
 
-print(extractNumSum(getFileHandle()))
+fileName = input("Please enter the name of the file to operate on\n")
+print("\nSum of all the numbers in the given file: " + fileName) 
+print(extractNumSum(getFileHandle(fileName)))
 
 # Answer by:
 # kunal5042
