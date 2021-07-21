@@ -11,12 +11,15 @@ url = 'http://py4e-data.dr-chuck.net/known_by_Gabriella.html'
 print("URL: " + url)
 
 choice = input("\nEnter 1 to change the url\nEnter 2 to continue\n")
-if int(choice) == 1:
-    url = input("Enter the new url:\n")
-elif int(choice) != 2:
-    print("Invalid choice: " + str(choice))
+try:
+    if int(choice) == 1:
+        url = input("Enter the new url:\n")
+    elif int(choice) != 2:
+        print("Invalid choice: " + str(choice))
+        print("Continuing with the default url: " + str(url))
+except:
+    print("Invalid input: " + str(choice))
     print("Continuing with the default url: " + str(url))
-
 try:
     Position = input("Enter the position of the link to follow:\n")
     Frequency = input("How many times to follow?\n")
